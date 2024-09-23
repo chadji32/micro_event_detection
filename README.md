@@ -1,4 +1,4 @@
-#Detecting Micro-Events in Sleep using a Transformer model
+Detecting Micro-Events in Sleep using a Transformer model
 
 A non-contact system designed to detect and classify sleep-related
 micro-events, such as apnea and hypopnea, using the TimeSformer model.
@@ -6,7 +6,7 @@ This project aims to assist in the diagnosis and monitoring of sleep
 disorders by analysing video data captured during overnight sleep
 studies.
 
-\## Description
+Description
 
 This project use the TimeSformer model, a transformer-based architecture
 for video classification, to automatically detect micro-events during
@@ -23,7 +23,7 @@ alternative to traditional sleep study methods, such as polysomnography.
 The repository includes the coding to reproduce the study, from raw data
 processing to AHI calculation.
 
-\### Dependencies
+Dependencies
 
 Libraries that need to be installed:
 
@@ -40,12 +40,12 @@ yolov3: https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
 coco.name:
 https://github.com/pjreddie/darknet/blob/master/data/coco.names
 
-\### Installing
+Installing
 
 Before running any code, ensure that the paths are correctly set based
 on the dataset\'s location.
 
-\### Executing program
+Executing program
 
 Steps:
 
